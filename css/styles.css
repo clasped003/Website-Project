@@ -12,7 +12,7 @@
     
     -Intergrate google fonts via url link into css file
 */
-html{
+*{
     display: flex;
     flex-direction:column;
     justify-content: space-between;
