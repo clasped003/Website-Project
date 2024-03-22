@@ -23,10 +23,12 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgba(244, 244, 244, 0.338);
-    min-height: 100%;
+    min-height: 100vh;
     background-image: url("../img/double-bubble-outline.webp");
     background-repeat: repeat;
     background-size: 300px 350px;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -236,12 +238,12 @@ li a{
     }
 
 footer{
-
+    margin-top: auto;
     padding: 20px;
     margin-top: 15%;
     color: #ffffff;
     background-color:#649fae;
-    
+    position: sticky;
     display: flex;
     justify-content: center;
 }
