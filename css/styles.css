@@ -112,7 +112,7 @@ nav li a:after {
     height: 2px;
     color: #649fae;
     position: relative;
-    background: #649fae;
+    background: #889ea38a;
     transition: width 0.15s ease 0s, left 0s ease 0s;
     width: 0;
     
@@ -144,7 +144,7 @@ header a:hover{
     background: url("../img/showcase.png") no-repeat center center;  
 	text-align: center;
     background-size: 100%; 
-
+    color: rgba(0, 0, 0, 0.505);
     background-position-x: 60%;
     background-position-y: 55%;
     -webkit-animation: zoomin 50s linear;
@@ -155,7 +155,7 @@ header a:hover{
 
 @-webkit-keyframes zoomin {
     0% {
-       background-size: 100%; 
+       background-size: 105%; 
     }
     100% {
        background-size: 150%; 
