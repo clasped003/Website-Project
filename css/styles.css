@@ -253,7 +253,7 @@ footer{
     margin-top: 15%;
     color: #ffffff;
     background-color:#649fae;
-    position: sticky;
+    
     display: flex;
     justify-content: center;
 }
