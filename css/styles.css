@@ -22,7 +22,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgba(244, 244, 244, 0.338);
-    min-height: 100%;
+    height: 100%;
     background-image: url("../img/double-bubble-outline.webp");
     background-repeat: repeat;
     background-size: 300px 350px;
