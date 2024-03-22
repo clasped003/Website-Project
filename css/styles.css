@@ -15,7 +15,7 @@
 html{
     display: flex;
     flex-direction:column;
-    
+    justify-content: space-between;
 }
 body{
     font: 13px/1.5 "Comfortaa", Arial;
