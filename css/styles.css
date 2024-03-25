@@ -12,12 +12,12 @@
     
     -Intergrate google fonts via url link into css file
 */
-html{
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
+
+
 body{
     font: 13px/1.5 "Comfortaa", Arial;
     padding: 0;
@@ -141,7 +141,6 @@ header a:hover{
 
 
 #showcase{
-    min-height: 100px;
     width:100%;  /*change */
 	height: 50%; 
     background: url("../img/showcase.png") no-repeat center center;  
@@ -157,8 +156,7 @@ header a:hover{
 #showcase h1{
     margin-top: 120px;
     font-size: 35px;
-    /*margin-bottom: 10px;*/
-    /*opacity: 0.5; use rgb for this instead to set opacity*/
+    margin-bottom: .7em;
 }
 
 .container h1{
@@ -172,7 +170,7 @@ li a{
 
 /*Middle Area - Midline*/
 #midline{
-    padding: 5px;
+    padding: 1em;
     background: rgba(239, 195, 129, 0.199);
     float: center;
     
@@ -184,17 +182,29 @@ li a{
 /*Boxes*/
 
 #boxes{
-    margin-top: 20px;
-    
+    margin-top: 5%;
 }
 
 #boxes .box{
     float: center;
     width: 75%;
-    padding: 10px;
+    padding: 5%;
+    margin-bottom: 3%;
+    padding: 1% 7% 5% 7%;
     text-align: center;
     -webkit-box-shadow: -2px 5px 11px 4px rgba(0,0,0,0.4); 
     box-shadow: -2px 5px 11px 4px rgba(0,0,0,0.3);
+}
+
+.box h3{
+    margin: 5%;
+    letter-spacing: .1rem;
+    font-size:  1.2em;
+}
+
+.box p{
+    line-height: 2em;
+    font-size: 1em;
 }
 /*Services Section Boxes*/
 #serviceBoxes{
@@ -216,15 +226,9 @@ li a{
     box-shadow: -2px 5px 11px 4px rgba(0,0,0,0.3);
 }
 
-#boxes .box2{
-    float: center;
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-    
-}
 
 .box{
+    margin:auto;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -232,15 +236,14 @@ li a{
     border: 1px solid #649fae;
     border-radius: 15px;
     width: 50%;
-    
+    height: 70%;
     overflow: hidden;
-    
     }
 
 footer{
     margin-top: auto;
-    padding: 20px;
-    margin-top: 15%;
+    padding: 2em;
+    
     color: #ffffff;
     background-color:#649fae;
     position: sticky;
